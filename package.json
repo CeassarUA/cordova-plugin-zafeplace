@@ -1,0 +1,25 @@
+{
+  "name": "Zafeplace",
+  "version": "0.1.0",
+  "description": "zafeplace cordova plugin",
+  "cordova": {
+    "id": "com.zafeplace.cordova",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "CeassarUA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeassarUA/cordova-plugin-zafeplace/issues"
+  },
+  "homepage": "https://github.com/CeassarUA/cordova-plugin-zafeplace#readme"
+}
