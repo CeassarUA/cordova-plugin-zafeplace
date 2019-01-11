@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.zafeplace.cordova" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>cordova-plugin-zafeplace</name>
-	<js-module name="cordova-plugin-zafeplace" src="www/cordova-plugin-zafeplace.js">
+	<js-module name="CordovaPluginZafeplace" src="www/CordovaPluginZafeplace.js">
 		<clobbers target="zafeplace" />
 	</js-module>
 	<platform name="android">
@@ -12,6 +12,6 @@
 		</config-file>
 		<config-file parent="/*" target="AndroidManifest.xml">
 			
-		</config-file><source-file src="src/android/cordova-plugin-zafeplace.java" target-dir="src/com/zafeplace/cordova/cordova-plugin-zafeplace" />
+		</config-file><source-file src="src/android/CordovaPluginZafeplace.java" target-dir="src/com/zafeplace/cordova/" />
 	</platform>
 </plugin>
