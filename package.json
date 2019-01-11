@@ -1,25 +1,50 @@
 {
-  "name": "zafeplace_plugin",
-  "version": "0.1.0",
-  "description": "zafeplace cordova plugin",
+  "_from": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+  "_id": "zafeplace_plugin@0.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/zafeplace_plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+    "rawSpec": "https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+    "saveSpec": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+    "fetchSpec": "https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git#76945577d8fa03f8f637eee01e17a6ca63a10261",
+  "_spec": "https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+  "_where": "C:\\IdeaSoft\\plugin\\hello",
+  "author": {
+    "name": "CeassarUA"
+  },
+  "bugs": {
+    "url": "https://github.com/CeassarUA/cordova-plugin-zafeplace/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "com.zafeplace.cordova",
     "platforms": [
       "android"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git"
-  },
+  "deprecated": false,
+  "description": "zafeplace cordova plugin",
+  "homepage": "https://github.com/CeassarUA/cordova-plugin-zafeplace#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "CeassarUA",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CeassarUA/cordova-plugin-zafeplace/issues"
+  "name": "zafeplace_plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git"
   },
-  "homepage": "https://github.com/CeassarUA/cordova-plugin-zafeplace#readme"
+  "version": "0.1.0"
 }
