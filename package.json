@@ -1,0 +1,27 @@
+{
+    "name": "com.example.hello",
+    "displayName": "HelloWorld",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "com.zafeplace.cordova": "https://github.com/CeassarUA/cordova-plugin-zafeplace.git",
+        "cordova-android": "^7.1.4",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "zafeplace_plugin": "git+https://github.com/CeassarUA/cordova-plugin-zafeplace.git"
+    },
+    "cordova": {
+        "plugins": {
+            "com.zafeplace.cordova": {},
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
