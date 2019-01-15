@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.KoderAndrey:Zafeplace-dev-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Zafeplace-dev-SNAPSHOT.aar/b5fd82bca2203c25139a77f1edd9fb8f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Zafeplace-dev-SNAPSHOT.aar/b5fd82bca2203c25139a77f1edd9fb8f/jars/libs/net.i2p.crypto-4.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Zafeplace-dev-SNAPSHOT.aar/b5fd82bca2203c25139a77f1edd9fb8f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

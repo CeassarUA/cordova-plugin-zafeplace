@@ -2,7 +2,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
     "id": "com.zafeplace.cordova.CordovaPluginZafeplace",
-    "file": "plugins/com.zafeplace.cordova/www/CordovaPluginZafeplace.js",
+    "file": "plugins/com.zafeplace.cordova/www/zafeplace.js",
     "pluginId": "com.zafeplace.cordova",
     "clobbers": [
       "zafeplace"

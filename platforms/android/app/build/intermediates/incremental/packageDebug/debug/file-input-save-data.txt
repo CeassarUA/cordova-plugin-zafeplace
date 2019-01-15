@@ -1,10 +1,10 @@
 #Internal package file, do not edit.
-#Fri Jan 11 17:39:02 EET 2019
+#Tue Jan 15 12:10:21 EET 2019
 4.path=www/js/index.js
 8.set=ASSET
 6.path=www/index.html
 0.baseType=DIRECTORY
-10.path=www/cordova-js-src/android/nativeapiprovider.js
+10.path=www/img/logo.png
 5.baseType=DIRECTORY
 1.base=C\:\\IdeaSoft\\plugin\\hello\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 8.path=www/css/index.css
@@ -30,8 +30,8 @@
 5.path=www/cordova-js-src/android/promptbasednativeapi.js
 0.base=C\:\\IdeaSoft\\plugin\\hello\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 7.path=www/cordova-js-src/exec.js
-11.path=www/plugins/com.zafeplace.cordova/www/CordovaPluginZafeplace.js
-9.path=www/img/logo.png
+11.path=www/cordova-js-src/android/nativeapiprovider.js
+9.path=www/plugins/com.zafeplace.cordova/www/zafeplace.js
 6.set=ASSET
 2.base=C\:\\IdeaSoft\\plugin\\hello\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 11.baseType=DIRECTORY

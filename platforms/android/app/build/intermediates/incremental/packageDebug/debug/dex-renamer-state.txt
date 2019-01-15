@@ -1,4 +1,4 @@
-#Fri Jan 11 17:39:02 EET 2019
+#Tue Jan 15 12:10:21 EET 2019
 base.0=C\:\\IdeaSoft\\plugin\\hello\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
