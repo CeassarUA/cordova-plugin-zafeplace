@@ -45,6 +45,35 @@ body {
     width:100%;
 }
 
+input.cool-input, input.cool-btn{
+    width: 38%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 4px 16px;
+}
+input.cool-input{
+    line-height: 25px;
+    font-size: 23px;
+    height: 30px;
+}
+input.cool-btn{
+    line-height: 30px;
+    font-size: 18px;
+    /*padding: 2px 16px;*/
+    height: 42px;
+}
+.plugin-succes-response, .plugin-error-response{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.plugin-succes-response{
+    color: #4B946A;
+}
+.plugin-error-response{
+    color: tomato;
+}
 /* Portrait layout (default) */
  
 
@@ -52,8 +81,8 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+        padding:12px;  /* padding-top + padding-bottom + text area = image height */
+        margin:0;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
 }
@@ -72,7 +101,7 @@ h1 {
     -webkit-border-radius:4px;
     color:#FFFFFF;
     font-size:12px;
-    margin:0px 30px;
+    margin:0;
     padding:2px 0px;
 }
 

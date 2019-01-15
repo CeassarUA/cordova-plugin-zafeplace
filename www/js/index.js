@@ -42,6 +42,7 @@ var app = {
 
 
       var coolMethod = function(){
+          var inputValue = document.getElementById('cool-method-input').value;
         var success = function(message) {
           output(message);
         };
@@ -49,11 +50,31 @@ var app = {
         var failure = function(errorCode) {
           output('  failed [' + errorCode + ']');
         };
-        zafeplace.coolMethod("hello",success, failure);
-            output('call zafeplace ');
+        zafeplace.coolMethod(inputValue,success, failure);
+        zafeplace.coolMethod(inputValue,printSuccess, printError);
       };
 
-       document.getElementById("coolMethod").addEventListener("click", coolMethod);
+      var testClick = function() {
+          var inputValue = document.getElementById('cool-method-input').value;
+          printError(inputValue);
+
+      };
+
+      function printSuccess(text) {
+          clearSuccessError();
+          document.getElementById("succes-response").innerText = text;
+      }
+      function printError(text) {
+          clearSuccessError();
+          document.getElementById("error-response").innerText = text;
+      }
+      function clearSuccessError() {
+          document.getElementById("succes-response").innerText = '';
+          document.getElementById("error-response").innerText = '';
+      }
+
+       document.getElementById("cool-method-btn").addEventListener("click", coolMethod);
+       // document.getElementById("cool-method-btn").addEventListener("click", testClick);
     },
 
     // Update DOM on a Received Event

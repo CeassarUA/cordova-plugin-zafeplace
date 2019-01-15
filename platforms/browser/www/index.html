@@ -33,19 +33,27 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <title>zafeplace</title>
     </head>
     <body>
          <div class="app">
-            <h1>Apache Cordova</h1>
+            <h1>Zafeplace plugin</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
+             <br>
             <p>
-                <input type="button" id="coolMethod" value="Cool Method" />
-            </p>    
+                <input class="cool-input" type="text" id="cool-method-input">
+                <input class="cool-btn" type="button" id="cool-method-btn" value="Cool Method" />
+            </p>
+             <br>
+             <hr>
+             <br>
+             <div class="plugin-succes-response" id="succes-response">plugin-succes-response</div>
+             <div class="plugin-error-response" id="error-response">plugin-error-response</div>
         </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
