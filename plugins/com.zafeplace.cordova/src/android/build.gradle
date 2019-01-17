@@ -1,0 +1,7 @@
+repositories {
+	maven { url "https://jitpack.io" }
+}
+
+dependencies {
+	compile 'com.github.KoderAndrey:Zafeplace:1.1.1'
+}
