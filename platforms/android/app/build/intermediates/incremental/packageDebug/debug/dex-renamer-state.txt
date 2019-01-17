@@ -1,0 +1,4 @@
+#Tue Jan 15 16:14:08 EET 2019
+base.0=C\:\\g\\Zafeplace\\Zafeplace-plugin\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
